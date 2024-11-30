@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="4608E932-AE15-F8FB-1FB0-BF0FE982E10C">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

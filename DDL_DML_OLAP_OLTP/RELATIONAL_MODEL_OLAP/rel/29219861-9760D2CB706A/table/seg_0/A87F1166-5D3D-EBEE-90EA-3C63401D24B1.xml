@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A87F1166-5D3D-EBEE-90EA-3C63401D24B1" schemaObject="454EE399-ED57-4527-F87E-07E09AA85629" name="DIM_ARTISTA">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>DIM_ARTISTA</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ARTISTA" id="11EAF65A-1FA3-93F9-ADDB-F1DB002AB232">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>DIM_ARTISTA</sourceObjSchema>
+<sourceObjName>ID_ARTISTA</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="16DD7527-F6A5-10DE-5310-3D2945680CA1">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>DIM_ARTISTA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF64131C-F372-B758-62AA-A22FFC83EB96" schemaObject="454EE399-ED57-4527-F87E-07E09AA85629" name="DIM_ARTISTA_PK">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007524</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11EAF65A-1FA3-93F9-ADDB-F1DB002AB232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

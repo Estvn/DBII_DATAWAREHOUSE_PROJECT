@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBB220BE-49CB-3EC2-E604-27675F9D796E" schemaObject="454EE399-ED57-4527-F87E-07E09AA85629" name="DIM_CANCION">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>DIM_CANCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CANCION" id="4479EF17-C1B3-760A-676F-941F7F70E521">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>DIM_CANCION</sourceObjSchema>
+<sourceObjName>ID_CANCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TÍTULO" id="62A0010A-753D-5357-19AA-24156DAF6259">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>DIM_CANCION</sourceObjSchema>
+<sourceObjName>TÍTULO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GÉNERO" id="FFE6CF80-0FBA-8661-778C-DFCB750CAC95">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>DIM_CANCION</sourceObjSchema>
+<sourceObjName>GÉNERO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACIÓN" id="9D8AB489-F85A-E78D-D5FA-3A63508E6C2D">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>DIM_CANCION</sourceObjSchema>
+<sourceObjName>DURACIÓN</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA238317-1F42-72D6-D82F-D855D5B4AA77" schemaObject="454EE399-ED57-4527-F87E-07E09AA85629" name="DIM_CANCION_PK">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007519</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4479EF17-C1B3-760A-676F-941F7F70E521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,27 @@
+package BDConnectors;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class OLTPConnector {
+
+	// Variable used to get the DB connection.
+	Connection oltpConnection;
+	
+	public OLTPConnector() {
+		oltpConnection = null;
+	}
+	
+	public String connectToOltp() throws ClassNotFoundException, SQLException{
+		
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		oltpConnection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "user", "pass");
+		
+		if(oltpConnection != null) {
+			return "connected";
+		}else {
+			return "without connection";
+		}
+	}
+}

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="620F5B89-A893-32F7-3BDB-71EBC4B3E406" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="ESTADISTICAS">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>ESTADISTICAS</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="08E41FB4-129E-8551-BA30-BD984FD94902">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ESTADISTICAS</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="251AD124-9158-904F-ECE8-543A072C10E9" referredColumn="39555966-70F1-5855-2B6A-D2F5F5CC05EB"/>
+</associations>
+</Column>
+<Column name="ID_CANCION" id="BAAD2F11-0663-A708-1872-71382DD8394A">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ESTADISTICAS</sourceObjSchema>
+<sourceObjName>ID_CANCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63452D52-62F6-0E2F-206E-81F4C5086B83" referredColumn="86A5D777-E42C-148C-82A6-B3C773B498BA"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_REPRODUCCIONES" id="C139DD2E-8250-3079-BA45-30D33159E15A">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ESTADISTICAS</sourceObjSchema>
+<sourceObjName>CANTIDAD_REPRODUCCIONES</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ULTIMA_REPRODUCCION" id="481E2BB2-D5E9-B92F-1208-0F6719787795">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ESTADISTICAS</sourceObjSchema>
+<sourceObjName>FECHA_ULTIMA_REPRODUCCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_MINUTOS_REPRODUCCION" id="DA3954EF-256C-33B6-0C1A-878D38067BC9">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ESTADISTICAS</sourceObjSchema>
+<sourceObjName>CANTIDAD_MINUTOS_REPRODUCCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA6B2544-FFA5-2E12-1FFC-D065756EB876" name="ESTADISTICAS_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>ESTADISTICAS_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E41FB4-129E-8551-BA30-BD984FD94902"/>
+<colUsage columnID="BAAD2F11-0663-A708-1872-71382DD8394A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="494163D7-9456-2F3F-AA75-963E8D554922" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="ESTADISTICAS_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>ESTADISTICAS_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E41FB4-129E-8551-BA30-BD984FD94902"/>
+<colUsage columnID="BAAD2F11-0663-A708-1872-71382DD8394A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC6A0969-8F62-DF93-A547-AC51D99E3231" name="ESTADISTICAS_CANCIONES_FK">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAAD2F11-0663-A708-1872-71382DD8394A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FCF72A1-3763-38BF-BE50-12A4CCDE23E2" name="ESTADISTICAS_USUARIOS_FK">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E41FB4-129E-8551-BA30-BD984FD94902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

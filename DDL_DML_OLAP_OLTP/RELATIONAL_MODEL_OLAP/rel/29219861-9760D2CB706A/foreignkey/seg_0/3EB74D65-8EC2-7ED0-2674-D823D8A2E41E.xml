@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3EB74D65-8EC2-7ED0-2674-D823D8A2E41E" containerWithKeyObject="E738C76D-704C-BFB3-8C20-242A9DB7E24F" localFKIndex="452ED5CE-261B-7C46-D3AC-B8F647D392F4" name="SYS_C007535">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007535</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<referredTableLongName>C##_OLAP_ADMIN_DBII_PROJECT.DIM_CANCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EBB220BE-49CB-3EC2-E604-27675F9D796E</referredTableID>
+<keyObject>CA238317-1F42-72D6-D82F-D855D5B4AA77</keyObject>
+<referredKeyID>CA238317-1F42-72D6-D82F-D855D5B4AA77</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CANCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

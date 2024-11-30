@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RELATIONAL_MODEL_OLAP" id="4CFC60C7-34BA-8D4E-4155-AE10BF874B48" version="3.5">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:22 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4CFC60C7-34BA-8D4E-4155-AE10BF874B48</designId>
+</OSDM_Design>

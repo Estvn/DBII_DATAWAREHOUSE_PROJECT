@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E738C76D-704C-BFB3-8C20-242A9DB7E24F" schemaObject="454EE399-ED57-4527-F87E-07E09AA85629" name="HECHOS_REPRODUCCIONES">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>HECHOS_REPRODUCCIONES</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REPRODUCCION" id="484C543D-14A2-EEFF-1B2E-60B164AE86ED">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>ID_REPRODUCCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="EF0C398E-31F5-E135-02A1-E682EFC56361">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="096B28B8-1EA3-A22C-4E3F-0DEB4C671116" referredColumn="8DC9337D-2312-A0E1-82E0-A4D6804EFF01"/>
+</associations>
+</Column>
+<Column name="ID_CANCION" id="A11CA351-3C41-9719-3E57-7A798F6DE0AD">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>ID_CANCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EB74D65-8EC2-7ED0-2674-D823D8A2E41E" referredColumn="4479EF17-C1B3-760A-676F-941F7F70E521"/>
+</associations>
+</Column>
+<Column name="ID_ARTISTA" id="9EE1C34A-0EDD-A35C-A5DB-B228239E886F">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>ID_ARTISTA</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A3D6DC9-671A-8FCE-B88D-A65F99940FCB" referredColumn="11EAF65A-1FA3-93F9-ADDB-F1DB002AB232"/>
+</associations>
+</Column>
+<Column name="ID_TIEMPO" id="0E87E8DE-393E-41A5-A864-0D956825F6A4">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>ID_TIEMPO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC6FBA4D-161E-1F85-4713-2DC989338963" referredColumn="18F72A2B-3010-2741-9BD4-96A705E4464C"/>
+</associations>
+</Column>
+<Column name="ID_PLAN" id="F9CB5637-16D8-DD6E-8984-C07F2978918F">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>ID_PLAN</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ED931D3-4CFA-D848-E691-DB2799BFE083" referredColumn="D6E32BEA-0AEB-ECBD-F07E-B73CD7D1C628"/>
+</associations>
+</Column>
+<Column name="DURACION_REPRODUCCION_SEGUNDOS" id="2A895CCF-B04F-A73B-F124-8DA3C525E75F">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>DURACION_REPRODUCCION_SEGUNDOS</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VECES_REPRODUCIDAS" id="07CF6BDF-4D9E-0924-75CE-A762AEC2D7ED">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>VECES_REPRODUCIDAS</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GANANCIAS_PLAN" id="C6546002-07AF-922B-334F-2DF31DE6D260">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>HECHOS_REPRODUCCIONES</sourceObjSchema>
+<sourceObjName>GANANCIAS_PLAN</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="318B86D1-87FD-397A-3FA1-F236E8C6324C" schemaObject="454EE399-ED57-4527-F87E-07E09AA85629" name="HECHOS_REPRODUCCIONES_PK">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007533</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484C543D-14A2-EEFF-1B2E-60B164AE86ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5437456-6982-725F-D07A-570F6C002545" name="SYS_C007534">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF0C398E-31F5-E135-02A1-E682EFC56361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="452ED5CE-261B-7C46-D3AC-B8F647D392F4" name="SYS_C007535">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A11CA351-3C41-9719-3E57-7A798F6DE0AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE240E75-5CEE-2887-5D97-70B4110FA757" name="SYS_C007536">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE1C34A-0EDD-A35C-A5DB-B228239E886F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F10C3A34-4F0B-DAE7-5DB4-A7999E4C9D95" name="SYS_C007537">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E87E8DE-393E-41A5-A864-0D956825F6A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35BE61BE-1CA1-A680-15BE-FF5EF143204A" name="SYS_C007538">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9CB5637-16D8-DD6E-8984-C07F2978918F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

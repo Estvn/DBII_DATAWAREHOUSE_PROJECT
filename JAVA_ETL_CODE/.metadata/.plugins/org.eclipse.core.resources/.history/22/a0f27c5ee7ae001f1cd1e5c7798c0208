@@ -1,0 +1,25 @@
+package main_package;
+
+import java.sql.SQLException;
+
+import BDConnectors.OLAPConnector;
+import BDConnectors.OLTPConnector;
+
+
+/**
+ * Main class where the user will initialize the ETL.
+ * 
+ * @since 2024/11/30
+ * @version 0.0.2
+ */
+public class ETLInitializer {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		System.out.println("hola");
+		
+		OLAPConnector olap = new OLAPConnector();
+		System.out.println(olap.connectToOlap());
+		
+	}
+}

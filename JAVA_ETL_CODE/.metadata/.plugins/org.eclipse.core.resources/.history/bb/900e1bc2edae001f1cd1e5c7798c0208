@@ -1,0 +1,23 @@
+package ETLProcessors;
+
+public class EtlsExecutor {
+	
+	public static final String[] STORAGE_PROCEDURE_LIST = {
+			"{call PK_ETL_CANCIONES.SP_INSERTAR_CANCIONES(?)}",
+			"{call PK_ETL_TIEMPO.SP_INSERTAR_TIEMPOS(?)}"
+			};
+	
+	String storageProcedureResponse;
+	
+	public String etlsExecuter() {
+		
+		for(int i=0; i<5; i++) {
+			
+			STORAGE_PROCEDURE_LIST[i];
+		}
+		
+		
+		return 
+	}
+
+}

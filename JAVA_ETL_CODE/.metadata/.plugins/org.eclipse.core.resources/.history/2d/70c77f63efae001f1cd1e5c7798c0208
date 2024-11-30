@@ -1,0 +1,44 @@
+package ETLProcessors;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+
+public class EtlsExecutor {
+	
+	// An static array variable that storage the SP names.
+	public static final String[] STORAGE_PROCEDURE_LIST = {
+			"{call PK_ETL_CANCIONES.SP_INSERTAR_CANCIONES(?)}",
+			"{call PK_ETL_TIEMPO.SP_INSERTAR_TIEMPOS(?)}"
+			};
+	
+	String storageProcedureResponse;
+	
+	public String etlsExecuter(Connection connection) {
+		
+		for(String storageProdecure: STORAGE_PROCEDURE_LIST) {
+			
+			 try (CallableStatement stmt = connection.prepareCall(storageProdecure)) {
+	                // Aquí puedes pasar el parámetro de salida (OUT) si lo necesitas
+	                // Ejemplo: stmt.setString(1, someParameter); 
+	                stmt.registerOutParameter(1, java.sql.Types.VARCHAR); // Ejemplo de registro de parámetro OUT
+	                
+	                stmt.execute();
+	                
+	                // Obtener el valor del parámetro OUT
+	                storageProcedureResponse = stmt.getString(1);
+	                
+	                // Puedes agregar una salida para verificar el éxito
+	                System.out.println("Procedure executed successfully: " + procedure);
+	                
+			 } catch (SQLException e) {
+	                e.printStackTrace();
+	                return "Error executing procedure: " + procedure;
+	         }			 
+		}
+		
+		//return 
+	}
+
+}

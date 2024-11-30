@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC6FBA4D-161E-1F85-4713-2DC989338963" containerWithKeyObject="E738C76D-704C-BFB3-8C20-242A9DB7E24F" localFKIndex="F10C3A34-4F0B-DAE7-5DB4-A7999E4C9D95" name="SYS_C007537">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007537</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<referredTableLongName>C##_OLAP_ADMIN_DBII_PROJECT.DIM_TIEMPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4481A076-D82D-299B-74D2-72EF454FFEEE</referredTableID>
+<keyObject>C809017B-F216-291D-5E66-40857FD63660</keyObject>
+<referredKeyID>C809017B-F216-291D-5E66-40857FD63660</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIEMPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

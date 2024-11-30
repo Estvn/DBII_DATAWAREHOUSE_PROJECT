@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96FD0ACB-92E0-DBD1-B8D5-5B6497DAB2B6" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="PLANES">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>PLANES</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLAN" id="E80EC338-AA48-993F-FC21-2429C5085548">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>ID_PLAN</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="80BB935D-1418-5A9F-1AC4-97B960FF2543">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="9D49E564-926C-B2A3-07C3-612B67E83F17">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="75CA13DD-8537-4009-3F5B-233B6DFB61E1">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>PLANES</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1575C4B0-307F-2C76-7311-A45C2FF886A3" name="PLANES_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>PLANES_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80EC338-AA48-993F-FC21-2429C5085548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93ACC770-A81C-8AF6-90D3-03E934AF3A05" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="PLANES_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>PLANES_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80EC338-AA48-993F-FC21-2429C5085548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

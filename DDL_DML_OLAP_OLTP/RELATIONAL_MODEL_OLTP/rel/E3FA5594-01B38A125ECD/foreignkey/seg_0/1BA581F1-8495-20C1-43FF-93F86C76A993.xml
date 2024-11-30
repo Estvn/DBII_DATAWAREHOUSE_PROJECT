@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BA581F1-8495-20C1-43FF-93F86C76A993" containerWithKeyObject="B54FA4A4-8CC6-390E-499C-7515585431D9" localFKIndex="A713F3C5-5FC3-E6FA-ADF7-337868F172F2" name="CANCIONES_GRUPOS_FK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>CANCIONES_GRUPOS_FK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<referredTableLongName>C##_OLTP_ADMIN_DBII_PROJECT.GRUPOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E64C3177-F819-07F8-EF3A-41190858E761</referredTableID>
+<keyObject>A179478B-5667-A5DC-66E1-25D3030BA8A4</keyObject>
+<referredKeyID>A179478B-5667-A5DC-66E1-25D3030BA8A4</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_GRUPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6063AB08-679D-1327-3670-B463D53BF814" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="FAVORITOS">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>FAVORITOS</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="AD811EE0-21C4-A6AB-B08D-928D06672348">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>FAVORITOS</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D52B8905-8E76-288B-0CEC-51B0B732A8D9" referredColumn="39555966-70F1-5855-2B6A-D2F5F5CC05EB"/>
+</associations>
+</Column>
+<Column name="ID_CANCION" id="EEC4210C-D9ED-34A8-297D-6E02D4E65473">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>FAVORITOS</sourceObjSchema>
+<sourceObjName>ID_CANCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38DB3FFD-02AA-F201-E179-A77654F0D80E" referredColumn="86A5D777-E42C-148C-82A6-B3C773B498BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A989884D-55F6-C7C2-D902-AFBB8EC005C1" name="FAVORITOS_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>FAVORITOS_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD811EE0-21C4-A6AB-B08D-928D06672348"/>
+<colUsage columnID="EEC4210C-D9ED-34A8-297D-6E02D4E65473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBA3AD0F-1C69-07DA-66AB-2E7994D8ACB8" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="FAVORITOS_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>FAVORITOS_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD811EE0-21C4-A6AB-B08D-928D06672348"/>
+<colUsage columnID="EEC4210C-D9ED-34A8-297D-6E02D4E65473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A65A5C49-E25D-5158-CE72-F79D35C03005" name="SYS_C007608">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD811EE0-21C4-A6AB-B08D-928D06672348"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA70CDDF-5A34-78C4-5BA5-6B6369F94CB9" name="SYS_C007609">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEC4210C-D9ED-34A8-297D-6E02D4E65473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

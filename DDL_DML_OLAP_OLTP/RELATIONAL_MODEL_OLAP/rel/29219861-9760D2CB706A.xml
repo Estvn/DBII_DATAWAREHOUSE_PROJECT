@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="29219861-D1CB-EA52-0103-9760D2CB706A" mainViewID="72B278A1-CB6E-84BB-0A2B-B429B8A7C4B1">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:23 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>CX_OLAP_DBII_PROJECT</connName>
+<connUser>C##_OLAP_ADMIN_DBII_PROJECT</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

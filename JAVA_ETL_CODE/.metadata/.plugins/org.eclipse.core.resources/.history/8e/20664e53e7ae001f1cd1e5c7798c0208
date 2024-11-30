@@ -1,0 +1,18 @@
+package main_package;
+
+import java.sql.SQLException;
+
+import BDConnectors.OLAPConnector;
+import BDConnectors.OLTPConnector;
+
+public class ETLInitializer {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		System.out.println("hola");
+		
+		OLAPConnector olap = new OLAPConnector();
+		System.out.println(olap.connectToOlap());
+		
+	}
+}

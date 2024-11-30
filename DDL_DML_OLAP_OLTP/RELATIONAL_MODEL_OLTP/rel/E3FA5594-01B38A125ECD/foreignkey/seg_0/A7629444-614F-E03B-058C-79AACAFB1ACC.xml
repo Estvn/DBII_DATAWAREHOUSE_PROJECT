@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7629444-614F-E03B-058C-79AACAFB1ACC" containerWithKeyObject="0F462F61-C475-2954-CA6D-1312D0DF09DF" localFKIndex="B84D6DEA-C116-73DA-A7B8-689AB51EDB68" name="SYS_C007606">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007606</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<referredTableLongName>C##_OLTP_ADMIN_DBII_PROJECT.PLANES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96FD0ACB-92E0-DBD1-B8D5-5B6497DAB2B6</referredTableID>
+<keyObject>1575C4B0-307F-2C76-7311-A45C2FF886A3</keyObject>
+<referredKeyID>1575C4B0-307F-2C76-7311-A45C2FF886A3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PLAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

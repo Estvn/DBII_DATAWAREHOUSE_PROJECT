@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="579C2AC4-DC17-D18D-3207-EC9EA07848C6" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="ARTISTAS">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>ARTISTAS</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ARTISTA" id="B128E292-0210-0C49-F8B5-88CF5EBD1E3B">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>ID_ARTISTA</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="4CF5F222-677F-D242-20A0-DE906A309F73">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDAD" id="E7DB4890-57E6-FC83-7304-4E19BE16F7E1">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>NACIONALIDAD</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="656D14D5-E825-1F86-7B07-E98590C77F3D">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>FECHA_NACIMIENTO</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C993F98-DAE2-389F-7FC8-BAEA7C10E78F" name="ARTISTAS_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>ARTISTAS_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B128E292-0210-0C49-F8B5-88CF5EBD1E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="848CD835-FFBD-1CAA-4A66-48F5CD85F56C" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="ARTISTAS_PK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>ARTISTAS_PK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B128E292-0210-0C49-F8B5-88CF5EBD1E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

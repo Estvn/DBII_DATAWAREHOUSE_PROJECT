@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="HECHOS_REPRODUCCIONES" directorySegmentName="seg_0" id="E738C76D-704C-BFB3-8C20-242A9DB7E24F">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<schemaObject>454EE399-ED57-4527-F87E-07E09AA85629</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>196F1B9F-954E-480A-A780-77E5025C5937</segment>
+<tableSpace>4608E932-AE15-F8FB-1FB0-BF0FE982E10C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VECES_REPRODUCIDAS" id="07CF6BDF-4D9E-0924-75CE-A762AEC2D7ED">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TIEMPO" id="0E87E8DE-393E-41A5-A864-0D956825F6A4">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DURACION_REPRODUCCION_SEGUNDOS" id="2A895CCF-B04F-A73B-F124-8DA3C525E75F">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_REPRODUCCION" id="484C543D-14A2-EEFF-1B2E-60B164AE86ED">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ARTISTA" id="9EE1C34A-0EDD-A35C-A5DB-B228239E886F">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CANCION" id="A11CA351-3C41-9719-3E57-7A798F6DE0AD">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GANANCIAS_PLAN" id="C6546002-07AF-922B-334F-2DF31DE6D260">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="EF0C398E-31F5-E135-02A1-E682EFC56361">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PLAN" id="F9CB5637-16D8-DD6E-8984-C07F2978918F">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007538" id="35BE61BE-1CA1-A680-15BE-FF5EF143204A">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007535" id="452ED5CE-261B-7C46-D3AC-B8F647D392F4">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007536" id="BE240E75-5CEE-2887-5D97-70B4110FA757">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007537" id="F10C3A34-4F0B-DAE7-5DB4-A7999E4C9D95">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007534" id="F5437456-6982-725F-D07A-570F6C002545">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HECHOS_REPRODUCCIONES_PK" id="318B86D1-87FD-397A-3FA1-F236E8C6324C">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<schemaObject>454EE399-ED57-4527-F87E-07E09AA85629</schemaObject>
+<segment>142FF085-376D-0F5C-BFC5-1401AD5A0E74</segment>
+<tableSpace>4608E932-AE15-F8FB-1FB0-BF0FE982E10C</tableSpace>
+<indexSegment>142FF085-376D-0F5C-BFC5-1401AD5A0E74</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

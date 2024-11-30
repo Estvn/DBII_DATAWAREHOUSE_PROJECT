@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FEE8C047-9C2E-FB46-9DEE-1667A58878FE" containerWithKeyObject="CBA9C597-F607-C1A6-550F-B5EB826642D4" localFKIndex="C11A496C-778D-D2DB-17A5-DD2C9FDC552C" name="LISTAS_REPRODUCCION_FK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>LISTAS_REPRODUCCION_FK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<referredTableLongName>C##_OLTP_ADMIN_DBII_PROJECT.LISTAS_REPRODUCCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6736C881-9D11-1814-5B2A-558A1344E113</referredTableID>
+<keyObject>3E911B04-3F74-1A4E-F58A-BE746F19FA2D</keyObject>
+<referredKeyID>3E911B04-3F74-1A4E-F58A-BE746F19FA2D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LISTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

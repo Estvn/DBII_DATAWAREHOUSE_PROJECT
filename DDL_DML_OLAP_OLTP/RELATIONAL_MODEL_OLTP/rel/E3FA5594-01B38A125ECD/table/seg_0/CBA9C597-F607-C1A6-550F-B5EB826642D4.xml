@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBA9C597-F607-C1A6-550F-B5EB826642D4" schemaObject="46B17B38-51A7-5822-181D-16A6AFE9C66C" name="LISTAS_X_CANCIONES">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>LISTAS_X_CANCIONES</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LISTA" id="1EB309B2-73F9-AA21-EC68-AAD1094B8BA8">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>LISTAS_X_CANCIONES</sourceObjSchema>
+<sourceObjName>ID_LISTA</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEE8C047-9C2E-FB46-9DEE-1667A58878FE" referredColumn="53EC32DA-6E6D-B3D9-CD67-5C8E5FE4EB3E"/>
+</associations>
+</Column>
+<Column name="ID_CANCION" id="5B82FCE4-2EE7-3170-2393-E44573326DA6">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>LISTAS_X_CANCIONES</sourceObjSchema>
+<sourceObjName>ID_CANCION</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2886440B-BC92-A878-8BF0-F0578AEF2B43" referredColumn="86A5D777-E42C-148C-82A6-B3C773B498BA"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_AGREGADA" id="12C75B42-C674-053A-608A-E6CA5D33F4DA">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>LISTAS_X_CANCIONES</sourceObjSchema>
+<sourceObjName>FECHA_HORA_AGREGADA</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE5B89B5-DC17-B4D0-1411-9B0A334E5FD4" name="CANCIONES_FK">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B82FCE4-2EE7-3170-2393-E44573326DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C11A496C-778D-D2DB-17A5-DD2C9FDC552C" name="LISTAS_REPRODUCCION_FK">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EB309B2-73F9-AA21-EC68-AAD1094B8BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

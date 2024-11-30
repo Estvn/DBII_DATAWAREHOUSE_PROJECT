@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##_OLTP_ADMIN_DBII_PROJECT" directorySegmentName="seg_0" id="15029DF6-7418-CE5E-ADE3-8398BF42AC6E">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjName>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<schemaObject>46B17B38-51A7-5822-181D-16A6AFE9C66C</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ARTISTAS" directorySegmentName="seg_0" id="579C2AC4-DC17-D18D-3207-EC9EA07848C6">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<schemaObject>46B17B38-51A7-5822-181D-16A6AFE9C66C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8ABCD964-1D84-995B-D475-580E37C3FB90</segment>
+<tableSpace>817F2EC9-0DB7-5D0E-2574-F9911EA84490</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="4CF5F222-677F-D242-20A0-DE906A309F73">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NACIMIENTO" id="656D14D5-E825-1F86-7B07-E98590C77F3D">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ARTISTA" id="B128E292-0210-0C49-F8B5-88CF5EBD1E3B">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NACIONALIDAD" id="E7DB4890-57E6-FC83-7304-4E19BE16F7E1">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ARTISTAS_PK" id="848CD835-FFBD-1CAA-4A66-48F5CD85F56C">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<schemaObject>46B17B38-51A7-5822-181D-16A6AFE9C66C</schemaObject>
+<segment>84722862-8F3F-BE1B-BC9E-F4636181409E</segment>
+<tableSpace>817F2EC9-0DB7-5D0E-2574-F9911EA84490</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ARTISTAS_PK" id="2C993F98-DAE2-389F-7FC8-BAEA7C10E78F">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<segment>84722862-8F3F-BE1B-BC9E-F4636181409E</segment>
+<tableSpace>817F2EC9-0DB7-5D0E-2574-F9911EA84490</tableSpace>
+<existingIndex>848CD835-FFBD-1CAA-4A66-48F5CD85F56C</existingIndex>
+<indexSegment>84722862-8F3F-BE1B-BC9E-F4636181409E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

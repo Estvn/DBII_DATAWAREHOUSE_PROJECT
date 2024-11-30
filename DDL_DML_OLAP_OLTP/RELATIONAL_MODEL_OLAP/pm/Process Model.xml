@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3EBFE88E-FFA7-315D-674B-6332402CC048">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:22 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

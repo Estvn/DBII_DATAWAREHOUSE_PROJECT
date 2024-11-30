@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63452D52-62F6-0E2F-206E-81F4C5086B83" containerWithKeyObject="620F5B89-A893-32F7-3BDB-71EBC4B3E406" localFKIndex="EC6A0969-8F62-DF93-A547-AC51D99E3231" name="ESTADISTICAS_CANCIONES_FK">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>ESTADISTICAS_CANCIONES_FK</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<referredTableLongName>C##_OLTP_ADMIN_DBII_PROJECT.CANCIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B54FA4A4-8CC6-390E-499C-7515585431D9</referredTableID>
+<keyObject>ECEDCE1D-7D1C-BC08-5BA5-B1668763D4A8</keyObject>
+<referredKeyID>ECEDCE1D-7D1C-BC08-5BA5-B1668763D4A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CANCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

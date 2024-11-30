@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2AB6B5D1-A7DD-99BF-6658-58DE3030C36D" mainViewID="C3236AD9-E617-089D-6311-ABBE2EE9665B">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:22 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

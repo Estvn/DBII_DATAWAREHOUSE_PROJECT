@@ -1,0 +1,50 @@
+package ETLProcessors;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+
+public class EtlsExecutor {
+	
+	// An static array variable that storage the SP names.
+	public static final String[] STORAGE_PROCEDURE_LIST = {
+			"{call PK_ETL_CANCIONES.SP_INSERTAR_CANCIONES(?)}",
+			"{call PK_ETL_TIEMPO.SP_INSERTAR_TIEMPOS(?)}",
+			"{call PK_ETL_ARTISTAS.SP_INSERTAR_ARTISTAS(?)}",
+			"{call PK_ETL_PLANES.SP_INSERTAR_PLANES(?)}",
+			"{call PK_ETL_CANCIONES.SP_INSERTAR_CANCIONES(?)}",
+			"{call PK_ETL_CANCIONES.SP_INSERTAR_CANCIONES(?)}"
+
+			};
+	
+	String storageProcedureResponse;
+	
+	public String etlsExecuter(Connection connection) {
+		
+		for(String storageProdecure: STORAGE_PROCEDURE_LIST) {
+			
+			 try (CallableStatement stmt = connection.prepareCall(storageProdecure)) {
+	                
+				stmt.registerOutParameter(1, java.sql.Types.VARCHAR);   
+	            stmt.execute();
+                
+                // Retrieves the value that returns the procedure.
+                storageProcedureResponse = stmt.getString(1);
+                
+                System.out.println(storageProcedureResponse);
+                
+                if (!storageProcedureResponse.contains("CORRECTAMENTE.")) {
+                    break; // If the message doesn't contain "CORRECTAMENTE.", stop executing further procedures.
+                }
+                
+			 } catch (SQLException e) {
+	                e.printStackTrace();
+	                return "An error has ocurred: " + storageProdecure;
+	         }			 
+		}
+		
+		return "\nETL process finalized without errors.\nCheck the OLAP DB to see the new values inserted in the tables.";
+	}
+
+}

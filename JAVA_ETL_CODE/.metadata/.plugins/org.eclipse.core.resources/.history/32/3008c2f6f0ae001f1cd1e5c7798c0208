@@ -1,0 +1,33 @@
+package BDConnectors;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+/**
+ * Class that contains a method created to make a connection with the DB where are all the ETL objects.
+ * 
+ * @since 2024/11/30
+ * @version 0.0.1
+ */
+public class OLAPConnector {
+	
+	Connection olapConnection;
+	
+	public OLAPConnector() {
+		olapConnection = null;
+	}
+	
+	
+	public String connectToOlap() throws ClassNotFoundException, SQLException{
+		
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		olapConnection = (Connection) DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "C##_OLAP_ADMIN_DBII_PROJECT", "123");
+		
+		if(olapConnection != null) {
+			return "connected";
+		}else {
+			return "without connection";
+		}
+	}
+}

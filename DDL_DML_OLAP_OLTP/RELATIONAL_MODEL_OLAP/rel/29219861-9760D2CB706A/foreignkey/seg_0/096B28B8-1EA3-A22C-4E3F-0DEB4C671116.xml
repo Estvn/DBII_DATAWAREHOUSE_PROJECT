@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="096B28B8-1EA3-A22C-4E3F-0DEB4C671116" containerWithKeyObject="E738C76D-704C-BFB3-8C20-242A9DB7E24F" localFKIndex="F5437456-6982-725F-D07A-570F6C002545" name="SYS_C007534">
+<sourceConnName>CX_OLAP_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLAP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007534</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 17:02:40 UTC</createdTime>
+<ownerDesignName>RELATIONAL_MODEL_OLAP</ownerDesignName>
+<referredTableLongName>C##_OLAP_ADMIN_DBII_PROJECT.DIM_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C417007-FCEC-CD51-986A-07452C325173</referredTableID>
+<keyObject>97815F16-0829-124E-8F92-D3E75ACF8A39</keyObject>
+<referredKeyID>97815F16-0829-124E-8F92-D3E75ACF8A39</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

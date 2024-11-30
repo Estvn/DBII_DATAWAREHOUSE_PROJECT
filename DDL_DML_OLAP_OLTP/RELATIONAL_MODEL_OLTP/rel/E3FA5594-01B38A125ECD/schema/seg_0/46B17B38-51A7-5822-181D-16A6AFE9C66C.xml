@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##_OLTP_ADMIN_DBII_PROJECT" directorySegmentName="seg_0" id="46B17B38-51A7-5822-181D-16A6AFE9C66C">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</SchemaObject>

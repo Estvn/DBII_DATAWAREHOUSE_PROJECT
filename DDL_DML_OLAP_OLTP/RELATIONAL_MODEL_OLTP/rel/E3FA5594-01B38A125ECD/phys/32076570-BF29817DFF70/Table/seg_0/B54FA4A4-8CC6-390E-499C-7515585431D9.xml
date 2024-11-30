@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CANCIONES" directorySegmentName="seg_0" id="B54FA4A4-8CC6-390E-499C-7515585431D9">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:19 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<schemaObject>46B17B38-51A7-5822-181D-16A6AFE9C66C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8ABCD964-1D84-995B-D475-580E37C3FB90</segment>
+<tableSpace>817F2EC9-0DB7-5D0E-2574-F9911EA84490</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TITULO" id="2C8E21A6-B186-05DA-7404-E8EE6AD849D8">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD_REPRODUCCIONES" id="4602A487-AA86-32C1-0D06-8D535555B3DC">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_GENERO" id="729A116D-A308-AD25-5115-4B04D100D612">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DURACION_SEGUNDOS" id="78A0A1C9-1A35-AB66-BAEC-852123382D24">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_GRUPO" id="83133F1F-338B-1D54-3C47-B5BEAC3CF89D">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CANCION" id="86A5D777-E42C-148C-82A6-B3C773B498BA">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ARTISTA" id="9145A5CD-D0AB-90A1-9A5E-E0999CF9695D">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LETRA" id="B9336509-8D4B-27E5-FBA2-9ADC3894F68F">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENERO" id="F5CDF1F9-8C7B-FF71-BF01-49C5FC56F4C1">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CANCIONES_PK" id="12E5F221-14DB-D12A-6579-2AD348247F90">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<schemaObject>46B17B38-51A7-5822-181D-16A6AFE9C66C</schemaObject>
+<segment>84722862-8F3F-BE1B-BC9E-F4636181409E</segment>
+<tableSpace>817F2EC9-0DB7-5D0E-2574-F9911EA84490</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007602" id="7C067007-A095-C97A-E717-0719DA7B2266">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CANCIONES_GRUPOS_FK" id="A713F3C5-5FC3-E6FA-ADF7-337868F172F2">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CANCIONES_GENEROS_MUSICALES_FK" id="ED472A11-3A54-830A-6C47-1F53995E40DD">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000022309C00008$$" id="A54B9885-29E9-6864-B1F4-25433596AF71">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>LETRA</column>
+<logging>YES</logging>
+<tableSpace>817F2EC9-0DB7-5D0E-2574-F9911EA84490</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CANCIONES_PK" id="ECEDCE1D-7D1C-BC08-5BA5-B1668763D4A8">
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:20 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<segment>84722862-8F3F-BE1B-BC9E-F4636181409E</segment>
+<tableSpace>817F2EC9-0DB7-5D0E-2574-F9911EA84490</tableSpace>
+<existingIndex>12E5F221-14DB-D12A-6579-2AD348247F90</existingIndex>
+<indexSegment>84722862-8F3F-BE1B-BC9E-F4636181409E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

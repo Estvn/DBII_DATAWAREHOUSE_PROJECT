@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE67C195-E682-9FE3-18D2-55A6699BB254" containerWithKeyObject="B9DB1D97-D8DB-606F-5E56-72B3DCDE9BA6" localFKIndex="369856FB-FDF5-0565-4902-CEFC997E32F8" name="SYS_C007603">
+<sourceConnName>CX_OLPT_DBII_PROJECT</sourceConnName>
+<sourceObjSchema>C##_OLTP_ADMIN_DBII_PROJECT</sourceObjSchema>
+<sourceObjName>SYS_C007603</sourceObjName>
+<createdBy>stvn</createdBy>
+<createdTime>2024-11-30 16:25:21 UTC</createdTime>
+<ownerDesignName>PHYSICAL_MODEL</ownerDesignName>
+<referredTableLongName>C##_OLTP_ADMIN_DBII_PROJECT.ARTISTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>579C2AC4-DC17-D18D-3207-EC9EA07848C6</referredTableID>
+<keyObject>2C993F98-DAE2-389F-7FC8-BAEA7C10E78F</keyObject>
+<referredKeyID>2C993F98-DAE2-389F-7FC8-BAEA7C10E78F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ARTISTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
