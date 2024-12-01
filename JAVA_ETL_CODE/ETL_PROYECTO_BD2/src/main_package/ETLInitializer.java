@@ -20,7 +20,7 @@ public class ETLInitializer {
 		OLAPConnector olap = new OLAPConnector();
 		Connection c =(Connection) olap.connectToOlap();
 		
-		// Calling the method who haves the ETLs execution.
+		// Calling the method who has the ETLs execution.
 		EtlsExecutor etlsExecutor = new EtlsExecutor();
 		System.out.println(etlsExecutor.etlsExecuter(c));
 		
